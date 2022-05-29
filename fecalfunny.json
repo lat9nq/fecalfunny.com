@@ -1,0 +1,21 @@
+{
+  "file_format_version" : "1.0.0",
+  "layer" : {
+    "name": "VK_LAYER_FECAL_funny_dot_com",
+    "type": "GLOBAL",
+    "library_path": "/home/lat9nq/repos/fecalfunny.com/fecalfunny.so",
+    "api_version": "1.0.0",
+    "implementation_version": "1",
+    "description": "check out joey-vsauce at fecalfunny.com",
+    "functions": {
+      "vkGetInstanceProcAddr": "funny_GetInstanceProcAddr",
+      "vkGetDeviceProcAddr":   "funny_GetDeviceProcAddr"
+    },
+    "enable_environment": {
+      "FECAL_FUNNY": "1"
+    },
+    "disable_environment": {
+      "FUNNY_SINK": "1"
+    }
+  }
+}
